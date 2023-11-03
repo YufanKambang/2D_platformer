@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="25" height="20" tilewidth="128" tileheight="128" infinite="0" nextlayerid="7" nextobjectid="12">
+ <tileset firstgid="1" source="arcade_platformer.tsx"/>
+ <layer id="3" name="background" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRQA0gM8TMpQYAuU0Rjxypbgepl0dijwLiAQChvwEF
+  </data>
+ </layer>
+ <objectgroup id="6" name="moving platform">
+  <object id="11" gid="10" x="1152.04" y="1664.17" width="128" height="128">
+   <properties>
+    <property name="boundary_bottom" type="float" value="350"/>
+    <property name="boundary_top" type="float" value="1000"/>
+    <property name="change_y" type="float" value="2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="1" name="ground" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF1AYsQMw60I4YBaNgFAwbwA/EgkiYjwbmcwIxExLmoKI92Mwn1h5GIjEu85HtwaUXn76hhAHnSwFZ
+  </data>
+ </layer>
+ <layer id="2" name="ladders" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwVAHAAfQAAE=
+  </data>
+ </layer>
+ <layer id="4" name="goal" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMAqIB9J0sEOKDnYMNwAAUiAANg==
+  </data>
+ </layer>
+ <objectgroup id="5" name="coins">
+  <object id="1" gid="19" x="512.788" y="2178.48" width="128" height="128">
+   <properties>
+    <property name="point_value" type="int" value="21"/>
+   </properties>
+  </object>
+  <object id="3" gid="20" x="2817.82" y="2052.44" width="128" height="128">
+   <properties>
+    <property name="point_value" type="int" value="45"/>
+   </properties>
+  </object>
+  <object id="4" gid="21" x="1792.11" y="1794.15" width="128" height="128">
+   <properties>
+    <property name="point_value" type="int" value="33"/>
+   </properties>
+  </object>
+  <object id="6" gid="25" x="1402.67" y="388.242" width="128" height="128">
+   <properties>
+    <property name="point_value" type="int" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
