@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: my-service
+  annotations:
+    backstage.io/repo-url: github.com/my-org/my-service
+spec:
+  type: service
