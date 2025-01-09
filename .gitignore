@@ -1,1 +1,8 @@
-
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: my-service
+  annotations:
+    backstage.io/repo-url: github.com/YufanKambang/2D_platformer
+spec:
+  type: service
