@@ -6,6 +6,6 @@ metadata:
     backstage.io/repo-url: github.com/my-org/my-service
     github.com/project-slug: YufanKambang/2D_platformer
 spec:
-  owner: user: default/YufanKambang
+  owner: user:default/YufanKambang
   type: service
   lifecycle: unknown
