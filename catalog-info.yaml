@@ -3,9 +3,8 @@ kind: Component
 metadata:
   name: 2D_platformer
   annotations:
-    backstage.io/repo-url: github.com/my-org/my-service
+    backstage.io/repo-url: https://github.com/YufanKambang/2D_platformer
     github.com/project-slug: YufanKambang/2D_platformer
-    self-url: https://github.com/YufanKambang/2D_platformer
 spec:
   owner: user:default/YufanKambang
   type: service
