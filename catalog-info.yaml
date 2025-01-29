@@ -2,11 +2,11 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: 2D_platformer
+  repoOwners: YufanKambang
   annotations:
     backstage.io/repo-url: https://github.com/YufanKambang/2D_platformer
     github.com/project-slug: YufanKambang/2D_platformer
 spec:
-  owner: 
-    user: default/YufanKambang
+  owner: user:default/YufanKambang
   type: service
   lifecycle: unknown
