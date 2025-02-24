@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: component
 metadata:
   name: 2D_platformer
+  namespace: default
   annotations:
     backstage.io/repo-url: https://github.com/YufanKambang/2D_platformer
     github.com/project-slug: YufanKambang/2D_platformer
